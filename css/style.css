@@ -7195,20 +7195,24 @@ button,
 
   .view__tab-inner {
     padding: 0 45px;
-    overflow: hidden;
-    overflow-x: scroll;
     margin-bottom: 20px;
   }
 
-  .view__tab-info {
-    overflow: hidden;
+  .view__parameters {
+    overflow-x: auto;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+
+  .view__lvl {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 333px 290px;
+    grid-template-columns: 333px 290px;
   }
 
   .view #tab-2 {
-    overflow: hidden;
-    overflow-x: scroll;
-    width: 180vw;
-    white-space: nowrap;
+    width: 100%;
   }
 
   .about-page__content {
